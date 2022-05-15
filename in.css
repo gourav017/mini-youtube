@@ -1,0 +1,55 @@
+#navbar{
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:30px;
+    cursor: pointer;
+    margin: -7px;
+}
+#show_videos{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+    cursor: pointer;
+  }
+  #brandimg{
+      height: 60px;
+     
+  }
+  #imaig{
+      
+      font-size: larger;
+      padding-top: -10px;
+      word-spacing: 30px;
+      justify-content: space-between;
+  }
+  #s{
+      margin: auto;
+      width: 650px;
+      font-size: larger;
+  }
+  #query{
+      width: 500px;
+      height: 30px;
+      font-size: larger;
+  }
+  button{
+      width: 70px;
+      height: 40px;
+      font-size: larger;
+      cursor: pointer;
+  }
+  #r{
+      word-spacing: 60px;
+      text-align: center;
+      margin: auto;
+      font-size: larger;
+      
+  }
+  
+  #container{
+    height: 450px;
+    margin-top: 20px;
+}
